@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>bf1tm</title>
+        <link rel="stylesheet" href="./css/core.css">
+    </head>
+    <body>
+        <h1>bf1tm</h1>
+        <form action="/request-tag" class="lookup" method="get">
+            <ul>
+                <li class="username">
+                    <input type="text" placeholder="Username" name="username" required="true">
+                </li>
+                <li class="platform">
+                    <select name="platform">
+                        <option value="3">PC</option>
+                        <option value="2">PS4</option>
+                        <option value="1">XBOX</option>
+                    </select>
+                </li>
+                <li class="submit">
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

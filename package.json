@@ -1,0 +1,26 @@
+{
+  "name": "bf1tm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theavish/bf1tm.git"
+  },
+  "author": "Avi Samloff <avi.samloff@gmail.com> (http://avisamloff.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theavish/bf1tm/issues"
+  },
+  "homepage": "https://github.com/theavish/bf1tm#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jimp": "^0.2.27",
+    "request": "^2.78.0",
+    "request-promise-native": "^1.0.3"
+  }
+}
